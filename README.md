@@ -1,12 +1,14 @@
 # Triathlonium
 
 A fun, colourful overview of triathlons in North Rhine-Westphalia — browse
-them as a **list** or on a **month calendar**, filter by distance, travel
+them as a **list** or on a **full-year calendar**, filter by distance, travel
 time and text, and open any race for its swim/bike/run distances, fees and
 organiser link. Data covers 2025–2027; every date shows how trustworthy it is.
 
-> **Status: draft.** It builds and runs locally, but nothing has been
-> deployed and the design has not been reviewed in a browser yet.
+**Live demo**: https://dbraun1991.github.io/Triathlonium/
+
+> **Status: draft.** The demo runs on GitHub Pages from the static data
+> files. The Cloudflare database and Worker are not set up yet.
 
 ## How it works
 

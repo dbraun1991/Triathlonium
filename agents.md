@@ -9,10 +9,12 @@ by a tiny read-only **Worker**; the Vite-built frontend on **GitHub Pages**
 reads the Worker, and falls back to a static JSON if the Worker is down.
 Human-facing overview: `README.md`. Rationale for every choice: `docs/adrs/`.
 
-**Current status: draft, never deployed.** The frontend builds and the data
-pipeline works. Not yet done: creating the Cloudflare D1 database/Worker,
-enabling Pages on the existing GitHub repo `dbraun1991/Triathlonium`, and a
-visual check in a real browser (the draft was only verified with `vite build`).
+**Live demo**: https://dbraun1991.github.io/Triathlonium/ (GitHub Pages, static data).
+
+**Current status: draft.** The frontend builds and the data
+pipeline works. Pages deployment is live. Not yet done: creating the Cloudflare
+D1 database/Worker (the site reads the static JSON), and a design review in a
+real browser.
 
 ## Development
 

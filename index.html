@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Triathlonium — Triathlon Calendar NRW</title>
+  <meta name="description" content="Every triathlon in North Rhine-Westphalia, as a list and a calendar." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏊</text></svg>" />
+</head>
+<body>
+  <header class="hero" id="hero">
+    <div class="hero-sky"></div>
+    <label class="speed">Animation
+      <input type="range" id="speed" min="0" max="3" step="0.25" value="1" aria-label="Animation speed" />
+      <output id="speed-out">1×</output>
+    </label>
+    <div class="hero-sun"></div>
+    <svg class="hero-hills" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 140 Q200 60 420 120 T860 100 T1200 130 V200 H0Z"/>
+    </svg>
+    <div class="lane lane-run"><span class="athlete">🏃</span></div>
+    <div class="lane lane-bike"><span class="athlete">🚴</span></div>
+    <div class="lane lane-swim">
+      <svg class="waves" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+        <path class="w1" d="M0 30 Q75 0 150 30 T300 30 T450 30 T600 30 T750 30 T900 30 T1050 30 T1200 30 V60 H0Z"/>
+        <path class="w2" d="M0 36 Q75 10 150 36 T300 36 T450 36 T600 36 T750 36 T900 36 T1050 36 T1200 36 V60 H0Z"/>
+      </svg>
+      <span class="athlete">🏊</span>
+    </div>
+    <div class="hero-text">
+      <p class="eyebrow">North Rhine-Westphalia</p>
+      <h1>Swim. Bike. <span>Run.</span></h1>
+      <p class="lede" id="countdown">Loading races…</p>
+    </div>
+  </header>
+
+  <nav class="toolbar" aria-label="Filters">
+    <div class="row row-main">
+      <div class="seg" role="tablist" aria-label="View">
+        <button role="tab" data-view="list" aria-selected="true">List</button>
+        <button role="tab" data-view="calendar" aria-selected="false">Calendar</button>
+      </div>
+      <div class="seg" id="years" role="tablist" aria-label="Year"></div>
+      <button class="icon-btn" id="theme" aria-label="Toggle theme" title="Toggle theme">◐</button>
+    </div>
+    <div class="row row-filters">
+      <div class="chips" id="classes" aria-label="Distance">
+        <button class="chip" data-class="sprint" aria-pressed="false">Sprint</button>
+        <button class="chip" data-class="short" aria-pressed="false">Short</button>
+        <button class="chip" data-class="middle" aria-pressed="false">Middle</button>
+      </div>
+      <div class="chips" id="swims" aria-label="Swim venue">
+        <button class="chip" data-swim="pool" aria-pressed="false">🏊 Pool</button>
+        <button class="chip" data-swim="open-water" aria-pressed="false">🌊 Open water</button>
+      </div>
+      <label class="field">Max travel
+        <input type="range" id="travel" min="30" max="240" step="15" value="240" />
+        <output id="travel-out">any</output>
+      </label>
+      <input class="search" id="q" type="search" placeholder="Search name or town…" aria-label="Search" />
+    </div>
+  </nav>
+
+  <main id="app" aria-live="polite"></main>
+
+  <dialog id="detail"></dialog>
+
+  <footer>
+    <p>Dates marked <span class="badge s-unverified">unverified</span> come from a manual spreadsheet;
+       <span class="badge s-tentative">tentative</span> is a guess from the previous year;
+       <span class="badge s-confirmed">confirmed</span> has a source link. Always check the organiser.</p>
+    <p>Open source · <a href="https://github.com/dbraun1991/Triathlonium">GitHub</a></p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

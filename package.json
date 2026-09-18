@@ -1,0 +1,20 @@
+{
+  "name": "triathlonium",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run data:build && vite",
+    "build": "npm run data:build && vite build",
+    "preview": "vite preview",
+    "data:build": "node scripts/build-data.mjs",
+    "db:migrate": "wrangler d1 migrations apply triathlon --remote",
+    "db:seed": "wrangler d1 execute triathlon --remote --file=worker/seed.sql",
+    "worker:dev": "wrangler dev",
+    "worker:deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0",
+    "wrangler": "^4.0.0"
+  }
+}

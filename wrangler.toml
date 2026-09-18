@@ -1,0 +1,16 @@
+# Cloudflare Worker + D1 (ADR-0003, ADR-0005). Free tier is enough.
+# Create the DB once with `npx wrangler d1 create triathlon`, then paste
+# the printed database_id below. Nothing here has been deployed yet.
+name = "triathlon-api"
+main = "worker/src/index.js"
+compatibility_date = "2026-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "triathlon"
+database_id = "REPLACE_WITH_ID_FROM_wrangler_d1_create"
+migrations_dir = "migrations"
+
+[vars]
+# Origin allowed to call the API from a browser (GitHub Pages origin).
+ALLOWED_ORIGIN = "https://dbraun1991.github.io"

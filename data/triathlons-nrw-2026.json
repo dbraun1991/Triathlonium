@@ -1,0 +1,1229 @@
+{
+  "ABRAXAS-Triathlon": {
+    "date_2026": "2026-05-03",
+    "date_2025": "2025-05-04",
+    "location": "Aachen",
+    "distance_from_duisburg": "112 km / 1:20 Zug",
+    "edition_2026": 35,
+    "edition_2025": 34,
+    "cost": {
+      "min": 39,
+      "max": 39
+    },
+    "course": {
+      "swim": "Hallenbad 25m",
+      "bike": "3; je 2x180° Turn",
+      "run": "2 Runden"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 21,
+        "run_km": 5
+      }
+    }
+  },
+  "ELE-Triathlon": {
+    "date_2026": "2026-05-10",
+    "date_2025": "2025-05-11",
+    "location": "Gladbeck",
+    "distance_from_duisburg": "30 km / 0:40 Zug",
+    "edition_2026": 36,
+    "edition_2025": 35,
+    "course": {
+      "swim": "Freibad?"
+    },
+    "distances": {
+      "short": {
+        "swim_km": 1,
+        "bike_km": 38.5,
+        "run_km": 10
+      }
+    }
+  },
+  "Drensteinfurt Triathlon": {
+    "date_2026": "2026-05-17",
+    "date_2025": "2025-05-18",
+    "location": "Drensteinfurt",
+    "distance_from_duisburg": "108 km / 1:15 Zug",
+    "edition_2026": 4,
+    "edition_2025": 3,
+    "cost": {
+      "min": 66,
+      "max": 120
+    },
+    "course": {
+      "swim": "Erlbad 50m"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.4,
+        "bike_km": 20,
+        "run_km": 5,
+        "bike_laps": 2,
+        "run_laps": 2
+      },
+      "short": {
+        "swim_km": 0.8,
+        "bike_km": 40,
+        "run_km": 10,
+        "bike_laps": 4,
+        "run_laps": 4
+      },
+      "middle": {
+        "swim_km": 1.2,
+        "bike_km": 60,
+        "run_km": 15,
+        "bike_laps": 6,
+        "run_laps": 6
+      }
+    }
+  },
+  "Steinfurter Volksbank Triathlon": {
+    "date_2026": "2026-05-24",
+    "date_2025": "2025-05-25",
+    "location": "Steinfurt",
+    "distance_from_duisburg": "115 km / 2:00 Zug",
+    "edition_2026": 15,
+    "edition_2025": 14,
+    "cost": {
+      "min": 44,
+      "max": 94
+    },
+    "course": {
+      "swim": "Freibad 50m",
+      "run": "5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1,
+        "bike_km": 40,
+        "run_km": 10
+      },
+      "middle": {
+        "swim_km": 2,
+        "bike_km": 80,
+        "run_km": 20
+      }
+    }
+  },
+  "Oelder Triathlon": {
+    "date_2026": "2026-05-30",
+    "date_2025": "2025-05-24",
+    "location": "Oelde",
+    "distance_from_duisburg": "125 km / 1:30 Zug",
+    "edition_2026": 23,
+    "edition_2025": 22,
+    "cost": {
+      "min": 39,
+      "max": 45
+    },
+    "course": {
+      "swim": "Freibad"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5
+      }
+    }
+  },
+  "Dalkeman": {
+    "date_2026": "2026-05-31",
+    "date_2025": "2025-05-25",
+    "location": "Gütersloh",
+    "distance_from_duisburg": "140 km / 1:40 Zug",
+    "edition_2026": 25,
+    "edition_2025": 24,
+    "cost": {
+      "min": 38,
+      "max": 65,
+      "approx": true,
+      "surcharge_eur": [
+        21
+      ]
+    },
+    "course": {
+      "swim": "Nordbad 50m",
+      "run": "2,5 km Runde"
+    },
+    "distances": {
+      "short": {
+        "swim_km": 1,
+        "bike_km": 40,
+        "run_km": 10
+      }
+    }
+  },
+  "Hagener IINJOY Triathlon": {
+    "date_2026": "2026-05-31",
+    "date_2025": "2025-05-25",
+    "location": "Hagen",
+    "distance_from_duisburg": "80 km / 1:00 Zug",
+    "edition_2026": 34,
+    "edition_2025": 33,
+    "course": {
+      "swim": "Freibad"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 23,
+        "run_km": 5,
+        "bike_laps": 4,
+        "run_laps": 2
+      },
+      "short": {
+        "swim_km": 1,
+        "bike_km": 43,
+        "run_km": 10,
+        "bike_laps": 4,
+        "run_laps": "4 R. à 2,5 km"
+      }
+    }
+  },
+  "Bonn Triathlon": {
+    "date_2026": "2026-06-07",
+    "date_2025": "2025-06-08",
+    "location": "Bonn",
+    "distance_from_duisburg": "100 km / 1:25 Zug",
+    "edition_2026": 36,
+    "edition_2025": 35,
+    "cost": {
+      "min": 190,
+      "max": 190,
+      "surcharge_note": "DTU Start"
+    },
+    "course": {
+      "swim": "Rhein, keine Wende",
+      "run": "3 x 5 km Runde"
+    },
+    "distances": {
+      "middle": {
+        "swim_km": 3.8,
+        "bike_km": 60,
+        "run_km": 15
+      }
+    }
+  },
+  "Aasee Triathlon": {
+    "date_2026": "2026-06-14",
+    "date_2025": "2025-06-15",
+    "location": "Bocholt",
+    "distance_from_duisburg": "60 km / 1:10 Zug",
+    "edition_2026": 37,
+    "edition_2025": 36,
+    "cost": {
+      "min": 51,
+      "max": 139,
+      "surcharge_eur": [
+        21,
+        22
+      ]
+    },
+    "course": {
+      "swim": "Aasee",
+      "run": "2,5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5,
+        "bike_laps": 1
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 40,
+        "run_km": 10,
+        "bike_laps": 2
+      },
+      "middle": {
+        "swim_km": 2,
+        "bike_km": 90,
+        "run_km": 20,
+        "bike_laps": 3
+      }
+    }
+  },
+  "Reiling-Triathlon Harsewinkel": {
+    "date_2026": "2026-06-14",
+    "date_2025": "2025-06-15",
+    "location": "Harsewinkel",
+    "distance_from_duisburg": "145 km / 2:50 Zug",
+    "edition_2026": 35,
+    "edition_2025": 34,
+    "cost": {
+      "min": 38,
+      "max": 60,
+      "approx": true
+    },
+    "course": {
+      "swim": "Freibad",
+      "bike": "10 km Kurs",
+      "run": "2,5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1,
+        "bike_km": 40,
+        "run_km": 10
+      }
+    }
+  },
+  "Lipperlandtriathlon": {
+    "date_2026": "2026-06-14",
+    "date_2025": "2025-06-15",
+    "location": "Lage",
+    "distance_from_duisburg": "175 km / 2:40 Zug",
+    "edition_2026": 41,
+    "edition_2025": 40,
+    "cost": {
+      "min": 27,
+      "max": 50,
+      "approx": true
+    },
+    "course": {
+      "swim": "See (1|2]",
+      "run": "5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5,
+        "bike_laps": 3
+      },
+      "short": {
+        "swim_km": 1,
+        "bike_km": 40,
+        "run_km": 10,
+        "bike_laps": "6 x 6,6 km"
+      }
+    }
+  },
+  "Steinbecker Triathlon": {
+    "date_2026": "2026-06-21",
+    "date_2025": "2025-06-15",
+    "location": "Recke",
+    "distance_from_duisburg": "160 km / 2:40 Zug",
+    "edition_2026": 33,
+    "edition_2025": 32,
+    "cost": {
+      "min": 45,
+      "max": 95,
+      "surcharge_eur": [
+        21,
+        22
+      ]
+    },
+    "course": {
+      "swim": "Mittellandkanal",
+      "run": "5,1 km Runden"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 27,
+        "run_km": 5,
+        "bike_laps": 2
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 41,
+        "run_km": 10,
+        "bike_laps": 3
+      },
+      "middle": {
+        "swim_km": 1.9,
+        "bike_km": 82,
+        "run_km": 21,
+        "bike_laps": 6
+      }
+    }
+  },
+  "Sparda Münster City Triathlon": {
+    "date_2026": "2026-06-21",
+    "date_2025": "2025-06-22",
+    "location": "Münster",
+    "distance_from_duisburg": "110 km / 1:05 Zug",
+    "cost": {
+      "min": 62,
+      "max": 82
+    },
+    "course": {
+      "swim": "Hafenbecken",
+      "run": "5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5,
+        "bike_laps": 1
+      },
+      "short": {
+        "swim_km": 1.35,
+        "bike_km": 40,
+        "run_km": 10,
+        "bike_laps": 2
+      }
+    }
+  },
+  "indeland Triathlon": {
+    "date_2026": "2026-06-21",
+    "date_2025": "2025-06-29",
+    "location": "Eschweiler, Aldenhoven",
+    "distance_from_duisburg": "105 km / 1:40 Zug",
+    "edition_2026": 19,
+    "edition_2025": 18,
+    "cost": {
+      "min": 68,
+      "max": 193
+    },
+    "course": {
+      "swim": "Blausteinsee",
+      "run": "5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5,
+        "bike_laps": 1
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 48,
+        "run_km": 10,
+        "bike_laps": 1
+      },
+      "middle": {
+        "swim_km": 1.9,
+        "bike_km": 88,
+        "run_km": 20,
+        "bike_laps": 2
+      }
+    }
+  },
+  "Hückelswagener Triathlon": {
+    "date_2026": "2026-06-21",
+    "date_2025": "2025-08-24",
+    "location": "Hückelswagen",
+    "distance_from_duisburg": "90 km / 2:10 Zug",
+    "edition_2026": 41,
+    "edition_2025": 40,
+    "cost": {
+      "min": 40,
+      "max": 60,
+      "surcharge_eur": [
+        21
+      ]
+    },
+    "course": {
+      "swim": "Bever Talsperre",
+      "run": "5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 18,
+        "run_km": 5,
+        "bike_laps": 2
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 36,
+        "run_km": 10,
+        "bike_laps": "4 Runden"
+      }
+    }
+  },
+  "ITH-Hennesee-Triathlon": {
+    "date_2026": "2026-06-27",
+    "date_2025": "2025-06-28",
+    "location": "Meschede",
+    "distance_from_duisburg": "130 km / 2:20 Zug",
+    "edition_2026": 17,
+    "edition_2025": 16,
+    "cost": {
+      "min": 36,
+      "max": 55,
+      "approx": true
+    },
+    "course": {
+      "swim": "Hennesee",
+      "bike": "3 bzw. 9 x wenden",
+      "run": "Wendepunkt 5 km"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20.5,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 40,
+        "run_km": 10
+      }
+    }
+  },
+  "Herbrand Niederrhein Triathlon N3T": {
+    "date_2026": "2026-06-28",
+    "date_2025": "2025-06-29",
+    "location": "Kalkar-Wissel",
+    "distance_from_duisburg": "70 km / 1:30 Zug",
+    "cost": {
+      "min": 30,
+      "max": 75,
+      "approx": true
+    },
+    "course": {
+      "swim": "Wisseler See",
+      "run": "5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.75,
+        "bike_km": 19,
+        "run_km": 5,
+        "bike_laps": 1
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 38,
+        "run_km": 10,
+        "bike_laps": 2
+      }
+    }
+  },
+  "Bielefelder Triathlon": {
+    "date_2026": "2026-06-28",
+    "date_2025": "2025-06-29",
+    "location": "Bielefeld",
+    "distance_from_duisburg": "165 km / 2:00 Zug",
+    "edition_2026": 30,
+    "edition_2025": 29,
+    "course": {
+      "swim": "Freibad 50m",
+      "bike": "5 x 4 km",
+      "run": "4 x 2,5 km"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5
+      }
+    }
+  },
+  "Wasserstraßer Volks- und Staffeltriathlon": {
+    "date_2026": "2026-07-04",
+    "date_2025": "2025-07-05",
+    "location": "Petershagen",
+    "distance_from_duisburg": "220 km / 3:15 Zug",
+    "edition_2026": 40,
+    "edition_2025": 39,
+    "cost": {
+      "min": 25,
+      "max": 30
+    },
+    "course": {
+      "swim": "Freibad 50m"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.55,
+        "bike_km": 22.5,
+        "run_km": 5.75
+      }
+    }
+  },
+  "Saerbecker Triathlon": {
+    "date_2026": "2026-07-05",
+    "date_2025": "2025-07-06",
+    "location": "Saerbeck",
+    "distance_from_duisburg": "130 km / 2:20 Zug",
+    "edition_2026": 44,
+    "edition_2025": 43,
+    "cost": {
+      "min": 40,
+      "max": 50,
+      "surcharge_eur": [
+        21
+      ]
+    },
+    "course": {
+      "swim": "Saerbecker Badesee",
+      "run": "5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.6,
+        "bike_km": 20,
+        "run_km": 5,
+        "bike_laps": 1
+      },
+      "short": {
+        "swim_km": 1.4,
+        "bike_km": 40,
+        "run_km": 10,
+        "bike_laps": 2
+      }
+    }
+  },
+  "Stadtwerke-Bochum-Triathlon": {
+    "date_2026": "2026-07-12",
+    "date_2025": "2025-06-22",
+    "location": "Bochum",
+    "distance_from_duisburg": "40 km / 0:25 Zug",
+    "edition_2026": 5,
+    "edition_2025": 4,
+    "cost": {
+      "min": 72,
+      "max": 82,
+      "surcharge_eur": [
+        21
+      ]
+    },
+    "course": {
+      "swim": "Freibad 50m",
+      "run": "2,5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 18.5,
+        "run_km": 5,
+        "bike_laps": 2
+      },
+      "short": {
+        "swim_km": 1,
+        "bike_km": 37,
+        "run_km": 10,
+        "bike_laps": "4 x (2 Wenden)"
+      }
+    }
+  },
+  "10K-Triathlon Verl": {
+    "date_2026": "2026-07-12",
+    "date_2025": "2025-07-13",
+    "location": "Verl",
+    "distance_from_duisburg": "145 km / 2:40 Zug",
+    "course": {
+      "swim": "Verler See",
+      "bike": "10 km Wendekurs",
+      "run": "2,5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.75,
+        "bike_km": 10,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 40,
+        "run_km": 10
+      }
+    }
+  },
+  "BHTC Moehnesee Triathlon": {
+    "date_2026": "2026-07-18",
+    "date_2025": "2025-07-12",
+    "location": "Möhnesee",
+    "distance_from_duisburg": "115 km / 2:30 Zug",
+    "cost": {
+      "min": 60,
+      "max": 115,
+      "surcharge_eur": [
+        21,
+        22
+      ]
+    },
+    "course": {
+      "swim": "Möhnesee",
+      "bike": "23 km Rundkurs",
+      "run": "Uferpromenade"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 40,
+        "run_km": 10
+      },
+      "middle": {
+        "swim_km": 2,
+        "bike_km": 70,
+        "run_km": 15
+      }
+    }
+  },
+  "Kindelsberg Triathlon": {
+    "date_2026": "2026-07-26",
+    "date_2025": "2025-07-27",
+    "location": "Hilchenbach",
+    "distance_from_duisburg": "155 km / 3:20 Zug",
+    "edition_2026": 33,
+    "edition_2025": 32,
+    "cost": {
+      "min": 35,
+      "max": 45,
+      "approx": true
+    },
+    "course": {
+      "swim": "Naturfreibad 70m",
+      "bike": "4 Runden",
+      "run": "5 Runden"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.56,
+        "bike_km": 20,
+        "run_km": 5
+      }
+    }
+  },
+  "Sassenberger Triathlon": {
+    "date_2026": "2026-08-02",
+    "date_2025": "2025-08-03",
+    "location": "Sassenberg",
+    "distance_from_duisburg": "140 km / 2:40 Zug",
+    "edition_2026": 38,
+    "edition_2025": 37,
+    "cost": {
+      "min": 51,
+      "max": 125,
+      "approx": true,
+      "surcharge_eur": [
+        21,
+        22
+      ]
+    },
+    "course": {
+      "swim": "Feldmark(/Euro)see",
+      "bike": "22 km Rundkurs",
+      "run": "5 km Rundkurs"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.7,
+        "bike_km": 23,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 44,
+        "run_km": 10
+      },
+      "middle": {
+        "swim_km": 1.9,
+        "bike_km": 89,
+        "run_km": 20
+      }
+    }
+  },
+  "Kamener Sparkassentriathlon": {
+    "date_2026": "2026-08-02",
+    "date_2025": "2025-08-10",
+    "location": "Karmen",
+    "distance_from_duisburg": "80 km / 1:00 Zug",
+    "edition_2026": 38,
+    "edition_2025": 37,
+    "cost": {
+      "min": 40,
+      "max": 60,
+      "approx": true
+    },
+    "course": {
+      "swim": "Schwimmbad 50m",
+      "bike": "Wendekurs",
+      "run": "2,5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 24,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1,
+        "bike_km": 42,
+        "run_km": 10
+      }
+    }
+  },
+  "Stadtwerke Borken Triathlon": {
+    "date_2026": "2026-08-08",
+    "date_2025": "2025-08-09",
+    "location": "Borken",
+    "distance_from_duisburg": "60 km / 1:20 Zug",
+    "edition_2026": 39,
+    "edition_2025": 38,
+    "course": {
+      "swim": "See",
+      "bike": "10 km Wendekurs",
+      "run": "<2,5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.3,
+        "bike_km": 20,
+        "run_km": 4.5
+      },
+      "short": {
+        "swim_km": 0.9,
+        "bike_km": 40,
+        "run_km": 9
+      }
+    }
+  },
+  "Rheiner Channel Triathlon": {
+    "date_2026": "2026-08-09",
+    "date_2025": "2025-08-10",
+    "location": "Rheine",
+    "distance_from_duisburg": "135 km / 1:45 Zug",
+    "cost": {
+      "min": 30,
+      "max": 40,
+      "approx": true,
+      "surcharge_eur": [
+        21
+      ]
+    },
+    "course": {
+      "swim": "Dortmund-Ems-Kanal"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 40,
+        "run_km": 10
+      }
+    }
+  },
+  "IRONMAN 70.3 Duisburg": {
+    "date_2026": "2026-08-16",
+    "date_2025": "2025-09-07",
+    "location": "Duisburg",
+    "distance_from_duisburg": "0 km / 0:00",
+    "cost": {
+      "min": 496.15,
+      "max": 496.15
+    },
+    "course": {
+      "swim": "Regattabahn",
+      "bike": "nur 1 Wendepunkt",
+      "run": "ca. 4 Regatta-Runden"
+    },
+    "distances": {
+      "middle": {
+        "swim_km": 1.916,
+        "bike_km": 89.1,
+        "run_km": 21.3
+      }
+    }
+  },
+  "Tri-4-Fun Triathlon SVKT 07 Minden": {
+    "date_2026": "2026-08-22",
+    "date_2025": "2025-09-13",
+    "location": "Minden",
+    "distance_from_duisburg": "210 km / 1:55 Zug",
+    "edition_2026": 17,
+    "edition_2025": 16
+  },
+  "gochNESSTRIathlon": {
+    "date_2026": "2026-08-23",
+    "date_2025": "2025-08-24",
+    "location": "Goch",
+    "distance_from_duisburg": "60 km / 1:20 Zug",
+    "cost": {
+      "min": 35,
+      "max": 35,
+      "approx": true
+    },
+    "course": {
+      "swim": "Hallenbad"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 18,
+        "run_km": 5
+      }
+    }
+  },
+  "Siegburger Triathlon": {
+    "date_2026": "2026-08-23",
+    "date_2025": "2025-08-24",
+    "location": "Siegburg",
+    "distance_from_duisburg": "90 km / 1:00 Zug",
+    "edition_2026": 11,
+    "edition_2025": 10,
+    "cost": {
+      "min": 65,
+      "max": 65,
+      "approx": true
+    },
+    "course": {
+      "swim": "Freibad 50m",
+      "bike": "4,7 km Wendekurs",
+      "run": "3,5 Runden"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.4,
+        "bike_km": 20,
+        "run_km": 5
+      }
+    }
+  },
+  "Riesenbecker-Polyvlies-Triathlon": {
+    "date_2026": "2026-08-30",
+    "date_2025": "2025-08-31",
+    "location": "Hörstel",
+    "distance_from_duisburg": "150 km / 2:00 Zug",
+    "edition_2026": 43,
+    "edition_2025": 42,
+    "cost": {
+      "min": 38,
+      "max": 67,
+      "approx": true
+    },
+    "course": {
+      "swim": "Torfmoorsee",
+      "bike": "6,7 km Teil-Wendekurs",
+      "run": "2,5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.6,
+        "bike_km": 20,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 40,
+        "run_km": 10
+      }
+    }
+  },
+  "Covestro Triathlon": {
+    "date_2026": "2026-08-30",
+    "date_2025": "2025-08-31",
+    "location": "Krefeld",
+    "distance_from_duisburg": "30 km / 0:30 Zug",
+    "cost": {
+      "min": 45,
+      "max": 70,
+      "surcharge_eur": [
+        21
+      ]
+    },
+    "course": {
+      "swim": "Elfrather See (Regatta)",
+      "bike": "10 km Wendekurs",
+      "run": "2,5 km Wendestrecke"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 40,
+        "run_km": 10
+      }
+    }
+  },
+  "Weserberglandtriathlon Höxter": {
+    "date_2026": "2026-08-30",
+    "date_2025": "2025-08-31",
+    "location": "Höxter",
+    "distance_from_duisburg": "215 km / 3:00 Zug",
+    "edition_2026": 7,
+    "edition_2025": 6,
+    "cost": {
+      "min": 39,
+      "max": 39,
+      "approx": true
+    },
+    "course": {
+      "swim": "Badesee"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.7,
+        "bike_km": 20,
+        "run_km": 5
+      }
+    }
+  },
+  "Nibelungen-Triathlon": {
+    "date_2026": "2026-09-06",
+    "date_2025": "2025-09-07",
+    "location": "Xanten",
+    "distance_from_duisburg": "45 km / 1:00 Zug",
+    "edition_2026": 40,
+    "edition_2025": 39,
+    "cost": {
+      "min": 32,
+      "max": 60,
+      "approx": true,
+      "surcharge_eur": [
+        21
+      ]
+    },
+    "course": {
+      "swim": "Badesee",
+      "run": "5 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 17,
+        "run_km": 5,
+        "bike_laps": 2
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 42,
+        "run_km": 10,
+        "bike_laps": "5 Runden"
+      }
+    }
+  },
+  "Carglass Köln Triathlon": {
+    "date_2026": "2026-09-06",
+    "date_2025": "2025-09-07",
+    "location": "Köln",
+    "distance_from_duisburg": "75 km / 0:40 Zug",
+    "cost": {
+      "min": 110,
+      "max": 305
+    },
+    "course": {
+      "swim": "Rhein, mit Wende"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 1.5,
+        "bike_km": 20,
+        "run_km": 4.8,
+        "bike_laps": 1,
+        "run_laps": 1
+      },
+      "short": {
+        "swim_km": 2.2,
+        "bike_km": 39.1,
+        "run_km": 9.5,
+        "bike_laps": 1,
+        "run_laps": 2
+      },
+      "middle": {
+        "swim_km": 2.6,
+        "bike_km": 72.9,
+        "run_km": 19,
+        "bike_laps": 2,
+        "run_laps": 4
+      }
+    }
+  },
+  "Aquarius-(Wo)Man": {
+    "date_2026": "2026-09-06",
+    "date_2025": "2025-09-07",
+    "location": "Löhne",
+    "distance_from_duisburg": "190 km / 2:40 Zug",
+    "edition_2026": 29,
+    "edition_2025": 28,
+    "cost": {
+      "min": 30,
+      "max": 35,
+      "approx": true
+    },
+    "course": {
+      "swim": "Schwimmbad 50m",
+      "bike": "8 Runden",
+      "run": "2 Runden"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5
+      }
+    }
+  },
+  "Willicher Triathlon": {
+    "date_2026": "2026-09-06",
+    "date_2025": "2025-09-07",
+    "location": "Willich",
+    "distance_from_duisburg": "40 km / 0:40 Zug",
+    "edition_2026": 29,
+    "edition_2025": 28,
+    "cost": {
+      "min": 34,
+      "max": 39,
+      "approx": true
+    },
+    "course": {
+      "swim": "Freibad 25m"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 20,
+        "run_km": 5
+      }
+    }
+  },
+  "Vredener Sparkassen Triathlon": {
+    "date_2026": "2026-09-12",
+    "date_2025": "2025-09-13",
+    "location": "Vreden",
+    "distance_from_duisburg": "90 km / 2:30 Zug",
+    "edition_2026": 14,
+    "edition_2025": 13,
+    "cost": {
+      "min": 48,
+      "max": 48
+    },
+    "course": {
+      "swim": "Freibad 50m",
+      "bike": "4,3 km Runde",
+      "run": "1,25 km Runde"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 17.2,
+        "run_km": 5
+      }
+    }
+  },
+  "Weseler Sparkassentriathlon": {
+    "date_2026": "2026-09-12",
+    "date_2025": "2025-09-13",
+    "location": "Wesel",
+    "distance_from_duisburg": "50 km / 0:35 Zug",
+    "edition_2026": 15,
+    "edition_2025": 14,
+    "cost": {
+      "min": 29,
+      "max": 49,
+      "approx": true,
+      "surcharge_eur": [
+        21
+      ]
+    },
+    "course": {
+      "swim": "Auesee",
+      "bike": "9,1 km Runde",
+      "run": "5 km Wendekurs"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.5,
+        "bike_km": 18,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 36,
+        "run_km": 10
+      }
+    }
+  },
+  "Stadtwerke-Ratingen-Triathlon": {
+    "date_2026": "2026-09-13",
+    "date_2025": "2025-09-21",
+    "location": "Ratingen",
+    "distance_from_duisburg": "25 km / 0:45 Zug",
+    "edition_2026": 18,
+    "edition_2025": 17,
+    "cost": {
+      "min": 69,
+      "max": 117
+    },
+    "course": {
+      "swim": "Freibad 50m"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.4,
+        "bike_km": 20,
+        "run_km": 5,
+        "bike_laps": 2,
+        "run_laps": 2
+      },
+      "short": {
+        "swim_km": 0.8,
+        "bike_km": 40,
+        "run_km": 10,
+        "bike_laps": 4,
+        "run_laps": 4
+      },
+      "middle": {
+        "swim_km": 1.2,
+        "bike_km": 60,
+        "run_km": 15,
+        "bike_laps": 6,
+        "run_laps": 6
+      }
+    }
+  },
+  "Sparkassen-Triathlon Dortmund": {
+    "date_2026": "2026-09-20",
+    "date_2025": "2025-09-21",
+    "location": "Dortmund",
+    "distance_from_duisburg": "60 km / 0:40 Zug",
+    "edition_2026": 23,
+    "edition_2025": 22,
+    "cost": {
+      "min": 50,
+      "max": 80,
+      "approx": true
+    },
+    "course": {
+      "swim": "PHOENIX See",
+      "bike": "6,7 km Strecke",
+      "run": "2,5 km Wendestrecke"
+    },
+    "distances": {
+      "sprint": {
+        "swim_km": 0.75,
+        "bike_km": 20,
+        "run_km": 5
+      },
+      "short": {
+        "swim_km": 1.5,
+        "bike_km": 40,
+        "run_km": 10
+      }
+    }
+  }
+}

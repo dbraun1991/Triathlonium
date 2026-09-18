@@ -1,0 +1,115 @@
+{
+  "year": 2027,
+  "researched": "2026-09-18",
+  "updates": {
+    "Drensteinfurt Triathlon": {
+      "date": "2027-05-16",
+      "status": "confirmed",
+      "source_url": "https://drensteinfurt-triathlon.de/",
+      "edition": 5
+    },
+    "indeland Triathlon": {
+      "date": "2027-06-20",
+      "status": "confirmed",
+      "source_url": "https://www.indeland-triathlon.de/",
+      "edition": 20
+    },
+    "Sparda Münster City Triathlon": {
+      "date": "2027-06-20",
+      "status": "confirmed",
+      "source_url": "https://muenster-triathlon.de/"
+    },
+    "Steinbecker Triathlon": {
+      "date": "2027-06-20",
+      "status": "confirmed",
+      "source_url": "https://www.steinbeck-triathlon.de/",
+      "edition": 34
+    },
+    "Bonn Triathlon": {
+      "date": "2027-06-06",
+      "status": "confirmed",
+      "source_url": "https://www.bonn-triathlon.de/"
+    },
+    "Reiling-Triathlon Harsewinkel": {
+      "date": "2027-06-06",
+      "status": "confirmed",
+      "source_url": "https://trispeed.de/2026/09/15/save-the-date-triathlon-am-6-6-2027/",
+      "edition": 36
+    },
+    "Aasee Triathlon": {
+      "date": "2027-06-13",
+      "status": "confirmed",
+      "source_url": "https://www.aasee-triathlon.de/"
+    },
+    "Herbrand Niederrhein Triathlon N3T": {
+      "date": "2027-06-27",
+      "status": "confirmed",
+      "source_url": "https://www.niederrhein-triathlon.de/",
+      "edition": 9
+    },
+    "ITH-Hennesee-Triathlon": {
+      "date": "2027-06-26",
+      "status": "confirmed",
+      "source_url": "https://www.trifunhennesee.de/ith-hennesee-triathlon/ausschreibung/"
+    },
+    "Saerbecker Triathlon": {
+      "date": "2027-07-04",
+      "status": "confirmed",
+      "source_url": "https://www.wasser-freizeit.de/veranstaltungen/saerbecker-triathlon",
+      "edition": 45
+    },
+    "10K-Triathlon Verl": {
+      "date": "2027-07-11",
+      "status": "confirmed",
+      "source_url": "https://www.triathlon-verl.de/"
+    },
+    "BHTC Moehnesee Triathlon": {
+      "date": "2027-07-17",
+      "status": "confirmed",
+      "source_url": "https://moehnesee-triathlon.de/",
+      "note": "Organiser page lists it as \"Möhnesee Triathlon\" and reports 2027 as fully booked."
+    },
+    "Sassenberger Triathlon": {
+      "date": "2027-08-01",
+      "status": "confirmed",
+      "source_url": "https://www.die-glocke.de/lokalsport/kreis-warendorf/artikel/39-sassenberger-triathlon-steigt-am-1-august-2027-1785762366",
+      "edition": 39,
+      "note": "Source is a local newspaper report (Die Glocke), not the organiser page."
+    },
+    "IRONMAN 70.3 Duisburg": {
+      "date": "2027-08-29",
+      "status": "confirmed",
+      "source_url": "https://www.radioduisburg.de/artikel/ironman-703-duisburg-2027-in-rekordzeit-ausverkauft-2753446",
+      "note": "Regular slots sold out within 24 hours of registration opening. Source is a news report."
+    },
+    "Lipperlandtriathlon": {
+      "date": "2027-06-20",
+      "status": "tentative",
+      "source_url": "https://tglage.de/triathlon.html",
+      "edition": 42,
+      "note": "Organiser wording: \"voraussichtlich am 20.06.2027\" (expected)."
+    },
+    "Oelder Triathlon": {
+      "date": "2027-05-22",
+      "status": "tentative",
+      "source_url": "https://running.life/en/event/oelder-triathlon",
+      "note": "Only an aggregator forecast based on the previous year; organiser page not readable."
+    },
+    "Stadtwerke Borken Triathlon": {
+      "date": "2027-08-14",
+      "status": "tentative",
+      "source_url": "https://running.life/en/event/stadtwerke-borken-triathlon",
+      "note": "Only an aggregator listing; the organiser page shows a \"save the date\" without a year."
+    }
+  },
+  "new_events": {
+    "Enni-Triathlon Moers": {
+      "location": "Moers",
+      "date": "2027-06-06",
+      "status": "confirmed",
+      "source_url": "https://www.enni-triathlon.de/",
+      "edition": 2,
+      "note": "New event: first edition was 7 Jun 2026. Distances and fee not researched; travel time from Duisburg not filled in."
+    }
+  }
+}

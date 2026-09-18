@@ -1,0 +1,59 @@
+{
+  "year": 2026,
+  "researched": "2026-09-18",
+  "updates": {},
+  "new_events": {
+    "Menden Cross-Triathlon": {
+      "location": "Menden (Sauerland)",
+      "format": "cross",
+      "date": "2026-08-29",
+      "status": "confirmed",
+      "source_url": "https://www.menden-crosstriathlon.de/",
+      "edition": 30,
+      "cost": {
+        "min": 40,
+        "max": 45
+      },
+      "course": {
+        "swim": "Bürgerbad Leitmecke, heated 50 m pool"
+      },
+      "distances": {
+        "sprint": {
+          "swim_km": 0.5,
+          "bike_km": 12.4,
+          "run_km": 4.8
+        },
+        "short": {
+          "swim_km": 1,
+          "bike_km": 24.8,
+          "run_km": 9.4
+        }
+      },
+      "note": "Cross triathlon (off-road bike/run), so the distances are shorter than road triathlons. Fees: sprint 40 € (relay 60 €), short 45 €. Also has Junior/Jedermann classes (0.2/6.2/2.2). Travel time from Duisburg not filled in."
+    },
+    "Wuppertaler Sparkassen Crosstriathlon": {
+      "location": "Wuppertal",
+      "format": "cross",
+      "date": "2026-09-20",
+      "status": "confirmed",
+      "source_url": "https://www.triathlonnrw.de/aktive/wettkaempfe/veranstaltungskalender/09-2026/16-wuppertaler-sparkassen-crosstriathlon",
+      "edition": 16,
+      "course": {
+        "swim": "Heated Neuenhof pool"
+      },
+      "distances": {
+        "sprint": {
+          "swim_km": 0.5,
+          "bike_km": 14,
+          "run_km": 5
+        },
+        "short": {
+          "swim_km": 0.75,
+          "bike_km": 28,
+          "run_km": 10
+        }
+      },
+      "note": "Cross triathlon (mountain bike in Burgholz). Distances from the NRW federation calendar; press reports give 11 km / 22 km bike, so the bike legs are unclear. Reported fully booked since early August. Organiser: Tri Club Wuppertal. Travel time from Duisburg not filled in."
+    }
+  }
+}

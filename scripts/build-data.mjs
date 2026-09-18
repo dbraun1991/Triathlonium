@@ -2,7 +2,7 @@
 //  - public/data/events.json  (static fallback the frontend fetches, ADR-0002)
 //  - worker/seed.sql          (D1 seed, ADR-0003)
 // Source of truth stays in data/. Both outputs are gitignored build artifacts.
-import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs';
 
 const BASE = 'data/triathlons-nrw-2026.json';
 const slug = (s) =>
@@ -58,6 +58,9 @@ const list = [...events.values()].sort((a, b) => a.name.localeCompare(b.name, 'd
 const ids = new Set();
 for (const e of list) { if (ids.has(e.id)) throw new Error(`duplicate id ${e.id}`); ids.add(e.id); }
 
+// public/data/ and worker/ hold only gitignored output, so a fresh checkout (CI) lacks them.
+mkdirSync('public/data', { recursive: true });
+mkdirSync('worker', { recursive: true });
 writeFileSync('public/data/events.json', JSON.stringify({ generated: new Date().toISOString(), events: list }, null, 1));
 
 // ---- D1 seed ----

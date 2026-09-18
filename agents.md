@@ -43,20 +43,30 @@ frontend static fallback                    D1 --> Worker GET /api/events --> fr
 ```
 Both frontend paths return the same shape (`src/data.js`). See ADR-0003/0006.
 
+## Key Docs
+
+| File | Role |
+|------|------|
+| `README.md` | Human overview, live demo, how to run and go live |
+| `docs/adrs/README.md` | ADR index — numbered, append-only decision log (0001–0013) |
+| `docs/data-review.md` | Open data questions: suspect spreadsheet dates, leads, exclusions |
+| `docs/plan.md` | Roadmap |
+
 ## Module Layout
 
 | Path | Role | ADR |
 |------|------|-----|
 | `index.html` | Hero markup, toolbar, `#app`, detail `<dialog>` | 0002, 0008 |
-| `src/main.js` | State, filters, event wiring, initial data load | 0002, 0007 |
+| `src/main.js` | State, filters (year, distance, swim type, travel, search), event wiring, initial data load | 0002, 0007, 0012 |
 | `src/views.js` | `renderList`, `renderCalendar`, `renderDetail` — return HTML strings | 0007 |
 | `src/data.js` | API-first, static-fallback loading; `flatten` to (event, year) rows | 0002, 0003 |
 | `src/util.js` | Date/cost/travel formatting, `esc()` | — |
 | `src/style.css` | All styling, CSS custom properties, dark theme, hero animation | 0008 |
-| `scripts/build-data.mjs` | Merge + validate data, emit JSON and SQL | 0006 |
+| `scripts/build-data.mjs` | Merge + validate data, derive `swim_type`, emit JSON and SQL | 0006, 0012 |
 | `worker/src/index.js` | Read-only Worker over D1 | 0003, 0005 |
 | `migrations/0001_init.sql` | D1 schema (`events`, `editions`, `distances`) | 0003 |
 | `.github/workflows/deploy-pages.yml` | Build + deploy to Pages | 0004 |
+| `vite.config.js` | `base: '/Triathlonium/'`, must match the repo name | 0004, 0013 |
 
 ## Conventions
 
